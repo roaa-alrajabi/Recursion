@@ -81,10 +81,12 @@ Ex: repeatStr2("ro","fff"); => "ro ro ro"
 Create a function called multiOf
 that takes 3 parameters,
 and return the first number mutiple by
-the second one ^ the third one
+(the second one ^ the third number)
 
-Ex: multiOf(4,3,10); => 4000
-Ex: multiOf(6,2,4); => 96
+Ex: multiOf(4,10,3); => 4000
+Ex: multiOf(6,3,2); => 54
+Ex: multiOf(6,2,3); => 48
+
 */
 
 
@@ -100,18 +102,27 @@ Ex: muti2(3, 6); => 3 * 4 * 5 * 6 => 360
 
 
 /*
+9
+Create a function called numberBetweenUs
+that take 2 parameters
+and return the number between them
 
+numberBetweenUs(2,8) => "3, 4, 5, 6, 7"
 
-
+numberBetweenUs(1,3) => "2"
 
 */
 
 
 /*
+10
+Create a function called numberBetweenUs
+that take 2 parameters
+and return the number between them
 
+Ex: numberBetweenUs(2,8) => "3, 4, 5, 6, 7"
 
-
-
+Ex: numberBetweenUs(1,3) => "2"
 */
 
 
