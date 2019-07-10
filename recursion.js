@@ -116,11 +116,20 @@ numberBetweenUs(1,3) => "2"
 
 /*
 10
-Create a function called numberBetweenUs
-that take 2 parameters
-and return the number between them
+Write a function called countDown
+that takes one parameter
+and return a string represent the count down from the number
+that insert to 0
+instead of 0 need to ahve "done"
+between each number a comma and space
+** you need to use recursion
 
-Ex: numberBetweenUs(2,8) => "3, 4, 5, 6, 7"
+countDown(5)
+=> "5, 4, 3, 2, 1, done"
 
-Ex: numberBetweenUs(1,3) => "2"
+countDown(2)
+=> "2, 1, done"
+
+countDown(7)
+=> "7, 6, 5, 4, 3, 2, 1, done"
 */
