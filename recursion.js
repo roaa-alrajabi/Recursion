@@ -221,7 +221,7 @@ try more case by yourself
 */
 
 /*
-14
+15
 Write a function called repeatChar2
 that takes two parameters
 and return the times that this char
