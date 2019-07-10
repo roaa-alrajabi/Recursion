@@ -110,6 +110,7 @@ that take 2 parameters
 and return the number between them
 ** Important: You should dint have extra space at the end or comma
 ** Important: the stop condition should [num1===num2-1]
+** hint: maybe you will have 2 if statment
 
 numberBetweenUs(2,8) => "3, 4, 5, 6, 7"
 
