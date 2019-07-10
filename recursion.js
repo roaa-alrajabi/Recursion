@@ -83,6 +83,7 @@ Create a function called multiOf
 that takes 3 parameters,
 and return the first number mutiple by
 (the second one ^ the third number)
+** Important: dont use **
 
 Ex: multiOf(4,10,3); => 4000
 Ex: multiOf(6,3,2); => 54
@@ -108,6 +109,7 @@ Create a function called numberBetweenUs
 that take 2 parameters
 and return the number between them
 ** Important: You should dint have extra space at the end or comma
+** Important: the stop condition should [num1===num2-1]
 
 numberBetweenUs(2,8) => "3, 4, 5, 6, 7"
 
@@ -231,11 +233,11 @@ repeat inside this string
 **hint: "car"[1] => "a"
 **hint: seacrh in MDN how "a" => "A" and "A" => "a"
 
-repeatChar("schOol","o") => 1
+repeatChar2("schOol","o") => 1
 
-repeatChar("school","a") => 0
+repeatChar2("school","a") => 0
 
-repeatChar("School","S") => 1
+repeatChar2("School","S") => 1
 
 try more case by yourself
 */
