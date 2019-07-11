@@ -3,6 +3,7 @@
 // to seprate it from the recursion file
 // dont serach on the internet except if it is written in the question
 // you should solve all the question by what you understand from the lecture
+// and dont look or use a code that you wrote before 
 
 console.log('Here is : While')
 
