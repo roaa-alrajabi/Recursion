@@ -1,6 +1,11 @@
-// all the exercises should use recursion:
-// dont serach on the internet except if it is written in the question
-// you should solve all the question by what you understand from the lecture
+// All the exercises should use recurtion:
+
+// Dont serach on the internet except if it is written in the question
+
+// You should solve all the question by what you understand from the lecture
+// and with your pair not solo
+
+// And dont look or use a code that you wrote before 
 
 console.log('Here is : Recursion')
 /*
@@ -194,10 +199,13 @@ try more case by yourself
 
 
 
-// dont solve any question here if you didnt finish all the question a bove
 // Advanced Part {for your benefits}
-// this part is extra (and there is no help from the trainer)
-// it is good to try it
+
+// Dont solve any question here if you didnt finish all the question a bove with your pair
+
+// This part you can try it and solve solo not with your pair
+
+// This part is extra (and there is no help from the trainer) it is good to try it
 
 /*
 1
