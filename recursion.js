@@ -1,5 +1,8 @@
 // all the exercises should use recursion:
+// dont serach on the internet except if it is written in the question
+// you should solve all the question by what you understand from the lecture
 
+console.log('Here is : Recursion')
 /*
 1
 Create a function called sum
@@ -46,6 +49,8 @@ Ex: fibon(2); => 2
 Ex: fibon(1); => 1
 Ex: fibon(0); => 1
 
+fib(n)=fin(n-1)+fib(n-2)
+
 fibon(n): 1 1 2 3 5 8 13 21
           | | | | | |  |  |
 n:        0 1 2 3 4 5  6  7
@@ -72,10 +77,9 @@ and return the first string number time
 ** Important: the stop condition should be [somthing=== 0]
 ** Important: You should dint have extra space at the end
 
-Ex: repeatStr2("ro","cc"); => "ro ro"
+  Ex: repeatStr2("ro","cc"); => "ro ro"
 Ex: repeatStr2("ro","fff"); => "ro ro ro"
 */
-
 
 /*
 7
@@ -155,7 +159,7 @@ multiplication2(7,6) =>  42
 */
 
 /*
-11
+12
 Write a function called mod2
 that takes two parameters
 and return the module of them
@@ -169,43 +173,7 @@ mod2(7,4) => 3
 
 
 /*
-12
-Write a function called mirror
-that takes one parameter a string
-and return the reversed string
-**hint: "str"[0] => "s"
-**hint: "car"[1] => "a"
-** Important: You should dint have extra space at the end
-
-mirror("school") => "loohcs"
-
-mirror("car") => "rac"
-
-mirror("maDrasa") => "asarDam"
-
-*/
-
-/*
 13
-Write a function called mirrorCaseAlso
-that takes one parameter a string
-and return the reversed string order
-and the lower case to upper case
-and the upper case to lower case
-**hint: seacrh in MDN how "a" => "A" and "A" => "a"
-** Important: You should dint have extra space at the end
-
-
-mirrorCaseAlso("sChOol") => "LOoHcS"
-
-mirrorCaseAlso("THOR") => "roht"
-
-mirrorCaseAlso("BaBa") => "AbAb"
-
-*/
-
-/*
-14
 Write a function called repeatChar
 that takes two parameters
 and return the times that this char
@@ -223,8 +191,51 @@ repeatChar("School","s") => 1
 try more case by yourself
 */
 
+
+
+// dont solve any question here if you didnt finish all the question a bove
+// Advanced Part {for your benefits}
+// this part is extra (and there is no help from the trainer)
+// it is good to try it
+
 /*
-15
+1
+Write a function called mirror
+that takes one parameter a string
+and return the reversed string
+**hint: "str"[0] => "s"
+**hint: "car"[1] => "a"
+** Important: You should dint have extra space at the end
+
+mirror("school") => "loohcs"
+
+mirror("car") => "rac"
+
+mirror("maDrasa") => "asarDam"
+
+*/
+
+/*
+2
+Write a function called mirrorCaseAlso
+that takes one parameter a string
+and return the reversed string order
+and the lower case to upper case
+and the upper case to lower case
+**hint: seacrh in MDN how "a" => "A" and "A" => "a"
+** Important: You should dint have extra space at the end
+
+
+mirrorCaseAlso("sChOol") => "LOoHcS"
+
+mirrorCaseAlso("THOR") => "roht"
+
+mirrorCaseAlso("BaBa") => "AbAb"
+*/
+
+
+/*
+3
 Write a function called repeatChar2
 that takes two parameters
 and return the times that this char
