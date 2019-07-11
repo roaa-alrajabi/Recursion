@@ -32,7 +32,7 @@ Create a function called factorial
 that takes a single parameter n,
 and return the product of all integers up to n starting from 1
 
-Ex: factorial(2); => 2 * 1 => 6
+Ex: factorial(2); => 2 * 1 => 2
 Ex: factorial(4); => 4 * 3 * 2 * 1 => 24
 */
 
@@ -42,7 +42,7 @@ Ex: factorial(4); => 4 * 3 * 2 * 1 => 24
 Create a function called repeatStr
 that takes 2 parameters string and number,
 and return the string number time with space
-Important: the stop condition should be [somthing=== 0]
+Important: the continue condition should be [somthing!== 0]
 ** Think how we can return nothing ???
 ** Important: You should dint have extra space at the end
 Ex: repeatStr("to",2); => "to to"
@@ -67,8 +67,8 @@ Create a function called repeatStr2
 that takes 2 string parameters,
 and return the first string number time
 (of the lenght of the secend string) with space betweeen it
-** Important: the stop condition should be [somthing=== 0]
-** Important: You should dint have extra space at the end
+** Important: the continue condition should be [somthing!== 0]
+** Important: You should't have extra space at the end
 
 Ex: repeatStr2("ro","cc"); => "ro ro"
 Ex: repeatStr2("ro","fff"); => "ro ro ro"
@@ -94,7 +94,8 @@ Ex: multiOf(6,2,3); => 48
 7
 Create a function called muti2
 that take two parameter
-and will return the multiplication from the first number to the second number
+and will return the multiplication
+from the first number to the second number
 
 Ex: muti2(4, 5); => 4 * 5 => 20
 Ex: muti2(3, 6); => 3 * 4 * 5 * 6 => 360
@@ -106,8 +107,8 @@ Ex: muti2(3, 6); => 3 * 4 * 5 * 6 => 360
 Create a function called numberBetweenUs
 that take 2 parameters
 and return the number between them
-** Important: You should dint have extra space at the end or comma
-** Important: the stop condition should [num1===num2-1]
+** Important: You should't have extra space at the end and comma
+** Important: the stop condition should [num1!==num2-1]
 ** hint: maybe you will have 2 if statment
 
 numberBetweenUs(2,8) => "3, 4, 5, 6, 7"
@@ -123,10 +124,10 @@ Write a function called countDown
 that takes one parameter
 and return a string represent the count down from the number
 that insert to 0
-instead of 0 need to ahve "done"
+instead of 0 you shoulf have "done"
 between each number a comma and space
 ** you need to use recursion
-** Important: You should dint have extra space at the end or comma
+** Important: You should't have extra space at the end and comma
 
 countDown(5)
 => "5, 4, 3, 2, 1, done"
@@ -198,7 +199,8 @@ try more case by yourself
 
 // Advanced Part {for your benefits}
 
-// Dont solve any question here if you didnt finish all the question a bove with your pair
+// Dont solve any question here if you didnt 
+//finish all the question a bove with your pair
 
 // This part you can try it and solve solo not with your pair
 
