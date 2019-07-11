@@ -83,7 +83,7 @@ and return the first string number time
 ** Important: the stop condition should be [somthing=== 0]
 ** Important: You should't have extra space at the end
 
-  Ex: repeatStr2("ro","cc"); => "ro ro"
+Ex: repeatStr2("ro","cc"); => "ro ro"
 Ex: repeatStr2("ro","fff"); => "ro ro ro"
 */
 

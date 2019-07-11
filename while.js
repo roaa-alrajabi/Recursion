@@ -42,7 +42,7 @@ Ex: factorial(4); => 4 * 3 * 2 * 1 => 24
 Create a function called repeatStr
 that takes 2 parameters string and number,
 and return the string number time with space
-Important: the continue condition should be [somthing!== 0]
+Important: the continue condition should be [somthing !== 0]
 ** Think how we can return nothing ???
 ** Important: You should dint have extra space at the end
 Ex: repeatStr("to",2); => "to to"
@@ -164,6 +164,8 @@ mod2(5,4) => 1
 mod2(2,8) => 2
 
 mod2(7,4) => 3
+
+mod2(8,4) => 0
 */
 
 
@@ -300,7 +302,7 @@ hi 1
 hi 2 Now Pleas Say Hello To 1
 hi 3 Now Pleas Say Hello To 1 and 2
 
-Ex: welcomeSayHello(7); => 2
+Ex: welcomeSayHello(7); =>
 hi 1
 hi 2 Now Pleas Say Hello To 1
 hi 3 Now Pleas Say Hello To 1 and 2
