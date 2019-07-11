@@ -7,7 +7,8 @@ console.log('Here is : Recursion')
 1
 Create a function called sum
 that takes a single parameter n,
-and return the sum of all integers up to n starting from 0
+and return the sum of all integers
+starting from n to 0
 
 Ex: sum(2); => 2 + 1 + 0 => 3
 Ex: sum(5); => 5 + 4 + 3 + 2 + 1 + 0 => 15
